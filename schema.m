@@ -1,0 +1,6 @@
+figure('Name','Electrical graphic','NumberTitle','off',...
+       'Units','normalized',...
+       'Position',[0.1 0.1 0.5 0.5]);
+   x=imread('schemaelectrica.png');
+image(x);
+axis off;

@@ -1,0 +1,16 @@
+clc;
+clear all;
+close all;
+Ain=4;
+Ad=5;
+fin=100;
+fd=400;
+R=1000;
+C=0.00001;
+N=2;
+interface(Ain,Ad,fin,fd,R,C,N);
+f=uimenu('Label','Documentation');
+ uimenu(f,'Label','Author','Callback','open author.pdf');
+ uimenu(f,'Label','Functioning mode','Callback','open PWMgenerator.pptx');
+ uimenu(f,'Label','Equations','Callback','open equations.pdf');
+ uimenu(f,'Label','Bibliography','Callback','open bibliography.pdf');
